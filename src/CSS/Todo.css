@@ -1,0 +1,50 @@
+.todoComp{
+  /* background-color: yellow; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.add{
+    width: 85%;
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid #b1b1b1;
+    text-indent: 10px;
+}
+
+.add-btn, .remove-btn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+.add-btn{
+    border: 1px solid #b1b1b1;
+    margin-right: 10px;
+}
+
+.remove-btn {
+    border: 1px solid #b1b1b1;
+}
+
+.alert{
+  margin: 20px;
+  font-size: 17px;
+}
